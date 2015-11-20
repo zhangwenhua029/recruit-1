@@ -1,6 +1,5 @@
-/**
- * Created by Administrator on 11/20/2015.
- */
-$(document).ready(function(){
-    $('test').slideDown('slow');
+// Write your jQuery code on line 3!
+$(document).ready(function() {
+    var $target = $('#trash');
+    $target.fadeOut('fast');
 });
