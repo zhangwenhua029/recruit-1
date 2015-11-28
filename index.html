@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simplify, Simplify</title>
-
+    <meta charset="UTF-8">
+    <title>Bank Courses</title>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type='text/javascript' src='script.js'></script>
 </head>
 <body>
-<div> Remember!
-    <ul>
-        <li>
-            <ol>
-                <li>Start with the function keyword</li>
-                <li>Inputs go between ()</li>
-                <li>Actions go between {}</li>
-                <li id="trash">jQuery is for chumps!</li>
-            </ol>
-        </li>
-        <li>Inputs are separated by commas.</li>
-        <li>Inputs can include other functions!</li>
-    </ul>
-</div>
+<div class="smth">Enter Date: <input type="text" id="datepicker">
+<button id="selectCourse">Show courses!</button> </div>
+
+<input type ="text" id="dateValue"/>
+
+
+<table class ="upperTable">
+    <tr>
+        <td>Time</td>
+        <td>Currency</td>
+        <td>Value</td>
+    </tr>
+</table>
+<table class="downTable" id ="datka"></table>
+
 </body>
 </html>
